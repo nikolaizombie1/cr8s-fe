@@ -1,0 +1,19 @@
+(undo-tree-save-format-version . 1)
+"3f42733f30003c8f5d4bb8956a473abbac24546e"
+[nil nil nil nil (25802 27870 865270 102000) 0 nil]
+([nil nil ((6 . 15) (1 . 6) (t 25802 27871 322296 837000)) nil (25802 27966 60934 473000) 0 nil])
+([nil nil ((15 . 16)) nil (25802 27966 60931 633000) 0 nil])
+([nil nil ((28 . 30) (#("\"" 0 1 (fontified nil)) . -28) (25 . 29) (17 . 25) (16 . 17) (15 . 16) (t 25802 27966 512104 234000) 14) nil (25802 28470 334430 749000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 50 . 51) (nil fontified nil 29 . 51) (29 . 51) 28) nil (25802 28470 334430 259000) 0 nil])
+([nil nil ((51 . 52)) nil (25802 28470 334429 939000) 0 nil])
+([nil nil ((22 . 28) (#("r" 0 1 (fontified t)) . -22) (undo-tree-id0 . -1) 23 (17 . 23) (#("s" 0 1 (fontified t)) . -17) (undo-tree-id1 . -1) (#("t" 0 1 (fontified t)) . -18) (undo-tree-id2 . -1) (#("a" 0 1 (fontified t)) . -19) (undo-tree-id3 . -1) (#("t" 0 1 (fontified t)) . -20) (undo-tree-id4 . -1) (#("i" 0 1 (fontified t)) . -21) (undo-tree-id5 . -1) (#("c" 0 1 (fontified t)) . -22) (undo-tree-id6 . -1) (#(" " 0 1 (fontified t)) . -23) (undo-tree-id7 . -1) 24 (21 . 24) (17 . 21)) nil (25802 28470 334429 59000) 0 nil])
+([nil nil ((38 . 48) (36 . 38)) nil (25802 28470 334413 299000) 0 nil])
+([nil nil ((76 . 77) (t 25802 28470 791440 776000)) nil (25802 28480 727656 627000) 0 nil])
+([nil nil ((38 . 39) (t 25802 28480 735526 971000)) nil (25802 28490 538945 964000) 0 nil])
+([nil nil ((#("&" 0 1 (face rust-ampersand-face fontified t)) . 38) (t 25802 28490 560612 135000)) nil (25802 28500 653058 245000) 0 nil])
+([nil nil ((45 . 46)) nil (25802 28500 653055 725000) 0 nil])
+([nil nil ((#("&" 0 1 (face rust-ampersand-face fontified t)) . 45) (t 25802 28500 673699 815000)) nil (25802 28517 192732 242000) 0 nil])
+([nil nil ((38 . 40)) nil (25802 28517 192729 932000) 0 nil])
+([nil nil ((65 . 67) (#("23" 0 2 (face font-lock-string-face fontified t)) . 65) (undo-tree-id1 . 1) (undo-tree-id2 . -2) (undo-tree-id3 . -2) (undo-tree-id4 . -1) (t 25802 28517 243843 515000)) nil (25802 31695 480787 717000) 0 nil])
+([nil current ((70 . 71) (#("4" 0 1 (face font-lock-string-face fontified t)) . 70) (undo-tree-id0 . -1)) nil (25802 31695 480783 767000) 0 nil])
+nil

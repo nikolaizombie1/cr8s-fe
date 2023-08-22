@@ -1,0 +1,59 @@
+use crate::components::input::Input;
+use yew::prelude::*;
+use web_sys::HtmlInputElement;
+use gloo_console::log;
+
+#[function_component(LoginForm)]
+pub fn login_form() -> Html {
+    let username_handle = use_state(String::default);
+    let username = (*username_handle).clone();
+    let username_changed = Callback::from(move |e: Event| {
+	let target = e.target_dyn_into::<HtmlInputElement>();
+	if let Some(input) = target {
+	    username_handle.set(input.value());
+	}
+    });
+
+    let password_handle = use_state(String::default);
+    let password = (*password_handle).clone();
+    let password_changed = Callback::from(move |e: Event| {
+	let target = e.target_dyn_into::<HtmlInputElement>();
+	if let Some(input) = target {
+	    password_handle.set(input.value());
+	}
+	
+    });
+
+    let cloned_username = username.clone();
+    let cloned_password = password.clone();
+    let onsubmit = Callback::from(move |e: SubmitEvent| {
+	e.prevent_default();
+	log!("Submitting form");
+	log!(cloned_username.clone());
+	log!(cloned_password.clone());
+    });
+    html! {
+        <form action="" method="post" onsubmit={onsubmit}>
+             <div class="mb-3">
+            <Input
+	    label="Username"
+	    input_type="text"
+	    name="username"
+	    value={username.clone()}
+	onchange={username_changed}
+	    />
+             </div>
+             <div class="mb-3">
+            <Input
+	    label="Password"
+	    input_type="password"
+	    name="password"
+	    value={password.clone()}
+	    onchange={password_changed}
+	    />
+              </div>
+              <button type="submit" class="btn btn-primary">{"Login"}</button>
+         </form>
+
+    }
+}
